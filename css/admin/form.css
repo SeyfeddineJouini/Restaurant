@@ -1,0 +1,35 @@
+.cont input{
+    width: 100%;
+}
+.cont{
+    width: 40%;
+    margin-top: 2rem;
+}
+div input {
+    width: 75%;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:rgba(255, 255, 255, 0.4);
+    border: 1px solid rgb(128, 127, 127);
+    font-size: 1.1rem;
+    text-align: center;
+}
+div select {
+    width: 75%;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:rgba(255, 255, 255, 0.4);
+    border: 1px solid rgb(128, 127, 127);
+    font-size: 1.1rem;
+    text-align: center;
+}
+#submit{
+    border-radius: 1rem;
+}
+p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+}

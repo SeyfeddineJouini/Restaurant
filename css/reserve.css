@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url('../img/reserve.jpg');
+    background-size: cover;
+}
+.container{
+    padding: 2rem;
+    font-size: large;
+    text-align: center;
+    margin-top: 5rem ;
+    margin-left: 5rem;
+    width: 35%;
+    min-height: 10rem;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 1rem;
+    min-height: 35rem;
+
+}
+
+div input,select{
+    width: 75%;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:rgba(255, 255, 255, 0.4);
+    border: 1px solid rgb(128, 127, 127);
+    font-size: 1.1rem;
+    text-align: center;
+}
+#submit{
+    width: 40%;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+#submit:hover{
+    cursor: pointer;
+    color: red;
+    border-color: red;
+}
+div a{
+    text-decoration: none;
+    color:rgb(58, 58, 58);
+  
+}
+div a:hover{
+    color: red;
+}
+h1{
+    color: rgba(24, 24, 24, 0.815);
+    margin-bottom: 1.5rem;
+}
+.container div{
+    width: 50%;
+    float:left;
+}
+.submit{
+    text-decoration: none;
+    color:rgb(58, 58, 58);
+    border-radius: 1rem;
+  
+}
+.submit:hover{
+    color: red;
+    cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+    .container div{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        margin-left: 0;
+    }
+  }
