@@ -1,0 +1,84 @@
+*{
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+}
+#nav{
+    text-align: right;
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: #009688;
+}
+#content{
+    margin-top: 2em;
+    margin-left: 4em;
+    width:55%;
+    top: 50%;
+    color: #f7e7ce;
+    font-weight: bold;
+}
+#content h1{
+    font-size: 3em;
+    margin-bottom:0.5em;
+}
+#submit{
+    width: 20em;
+    height: 4em;
+    padding: auto;
+    margin: 0px 10px;
+    border-radius: 25em;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 1.25em;
+    
+}
+#submit:hover{
+    
+    color: #009688;
+    border-color: #009688;
+}
+#content tr td{
+    font-size: 1em;
+}
+#content tr td input,#content tr td select{
+    
+    background: transparent;
+    margin-bottom: 1em;
+    text-align: left;
+    border: 2px solid white;
+    color: white;
+    padding: 1em;
+    width: 45%;
+}
+select{
+    background: transparent;
+    color: white;
+}
+
+
+
+
